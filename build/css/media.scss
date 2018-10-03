@@ -1,0 +1,51 @@
+@import "../scss/variables";
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    main {
+        .bl-news {
+            background-size: contain;
+            padding-bottom: 32px;
+        }
+        .bl-info {
+            .box-info {
+                min-height: 715px;
+                .img-profile {
+                    height: 257px !important;
+                    width: 352px !important;
+                    top: 93px !important;
+                }
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .bl-news {
+        background-size: contain;
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .hotline {
+        text-transform: uppercase;
+        font-size: $size-13;
+        font-weight: 700;
+        line-height: 50px;
+        color: $color-alert;
+    }
+    .btn-mobile {
+        font-size: $size-xl;
+        color: $color-primary;
+        text-align: center;
+        line-height: 50px;
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    .sub-menu {
+        left: -156px !important;
+    }
+}
