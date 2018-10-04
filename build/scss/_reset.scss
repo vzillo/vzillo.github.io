@@ -1,0 +1,82 @@
+
+// reset.scss 
+html,
+body,
+ul,
+figure,
+figcaption,
+ol {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+
+.form-group {
+    margin: 1rem 0.3rem;
+}
+label {
+    font-size: 13px;
+    line-height: 2em;
+}
+input[type="radio"] {
+    width: 20px;
+    height: 18px;
+}
+label[for=radio] {
+    display: inline-flex;
+    margin-right: 13px;
+}
+select,
+input {
+    width: 100%;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 13px;
+    border: none;
+    height: 32px;
+    &:focus {
+        outline: none;
+    }
+}
+button {
+    &:focus {
+        outline: none;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
+.nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    li {
+        display: inline-block;
+    }
+    a {
+        display: block;
+        text-decoration: none;
+    }
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+
+// Jquery
+.show {
+    opacity: 1 !important;
+    visibility: visible;
+}

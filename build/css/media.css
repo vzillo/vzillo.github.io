@@ -1,0 +1,73 @@
+@media (max-width: 375.98px) {
+  main .main-scroller {
+    height: 7.45rem; } }
+@media (max-width: 575.98px) {
+  .main-scroller {
+    position: relative;
+    z-index: 2;
+    height: 8.45rem;
+    overflow-y: hidden; }
+    .main-scroller .inner-scroller {
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch; }
+    .main-scroller::after {
+      content: "";
+      width: 31px;
+      height: 86%;
+      position: absolute;
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.28) -50%, rgba(0, 32, 131, 0.4) 100%);
+      right: 0px; }
+    .main-scroller .justify-content-between {
+      justify-content: space-between !important; }
+    .main-scroller .d-flex {
+      display: flex !important; }
+
+  main .bl-static {
+    line-height: 22px;
+    padding: 8px 0px; }
+    main .bl-static .box-static {
+      margin-right: -23px; }
+    main .bl-static .bl-title h1 {
+      font-size: 126%; }
+    main .bl-static .bl-title p {
+      font-size: 90%; }
+  main .bl-news {
+    background-size: contain;
+    padding-bottom: 32px; }
+  main .bl-info .box-info {
+    min-height: 871px; }
+    main .bl-info .box-info .img-profile {
+      height: 257px !important;
+      width: 352px !important;
+      top: 93px !important; }
+  main .bl-sale h2 {
+    font-size: 16px !important; }
+  main .bl-sale .box-sale .box-price .price .text-price {
+    font-size: 90%; }
+  main .bl-sale .box-sale .box-price .sale-price .text-price {
+    font-size: 90%; } }
+@media (max-width: 767.98px) {
+  .bl-news {
+    background-size: contain; } }
+@media (max-width: 991.98px) {
+  .hotline {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #e80000;
+    font-weight: 700;
+    line-height: 50px;
+    text-shadow: 1px 1px 1px #eee; }
+
+  .btn-mobile {
+    font-size: 24px;
+    color: #002083;
+    text-align: center;
+    line-height: 50px; } }
+@media (max-width: 1199.98px) {
+  .sub-menu {
+    left: -156px !important; } }
