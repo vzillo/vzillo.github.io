@@ -124,12 +124,7 @@ $(document).ready(function () {
             if (local > 100) {
                 $('.sub-menu').removeClass('show');
             }
-            // SHOW ALL CONTENT
-            if (local > 100) {
-                $('.bl-sale').removeClass('d-none');
-                $('.bl-info').removeClass('d-none');
-                $('.bl-news').removeClass('d-none');
-            }
+           
         });
        
     
