@@ -1,0 +1,269 @@
+@import "../scss/variables";
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 375.98px) {
+    main {
+        .main-scroller {
+            height: 7.45rem;
+        }
+        .page-detail-product {
+            .box-control li {
+                padding: 0px 4px;
+            }
+        }
+        
+    }
+}
+
+@media (max-width: 575.98px) {
+    .main-scroller {
+        position: relative;
+        z-index: 2;
+        height: 8.45rem;
+        overflow-y: hidden;
+        .inner-scroller {
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+        &::after {
+            content: "";
+            width: 31px;
+            height: 86%;
+            position: absolute;
+            background-image: linear-gradient(to right, rgba(255, 255, 255, 0.28) -50%, rgba(0, 32, 131, 0.4) 100%);
+            right: 0px;
+        }
+        .justify-content-between {
+            justify-content: space-between !important;
+        }
+        .d-flex {
+            display: flex !important;
+        }
+    }
+    .phone-mobile a {
+        font-size: 24px;
+        position: fixed;
+        bottom: 40px;
+        left: 6%;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #fff;
+        box-shadow: 0px 3px 16px #ddd;
+        line-height: 40px;
+        text-align: center;
+        z-index: 99;
+        transition: .5s;
+        opacity: 0;
+        &::before,
+        &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            border-radius: 50%;
+            top: -65px;
+            bottom: -65px;
+            left: -65px;
+            right: -65px;
+            border: 4px solid #B8E0EF;
+            animation: ani 1.5s linear infinite;
+        }
+    }
+    main {
+        .bl-static {
+            line-height: 22px;
+            padding: 8px 0px;
+            .box-static {
+                margin-right: -25px;
+                .title-static {
+                    bottom: 6px;
+                    h2 {
+                        a {
+                            font-size: 70%;
+                        }
+                    }
+                }
+            }
+            .bl-title {
+                h1 {
+                    font-size: 126%;
+                }
+                p {
+                    font-size: 90%;
+                }
+            }
+        }
+        .bl-news {
+            background-size: contain;
+            padding-bottom: 32px;
+        }
+        .bl-info {
+            .box-info {
+                min-height: 871px;
+                .img-profile {
+                    height: 257px !important;
+                    width: 352px !important;
+                    top: 81px !important;
+                }
+            }
+        }
+        .bl-cat {
+            h2 {
+                font-size: 18px !important;
+            }
+        }
+        .bl-sale {
+            h2 {
+                font-size: 16px !important;
+            }
+            .box-sale {
+                .box-price {
+                    .price {
+                        .text-price {
+                            font-size: 90%;
+                        }
+                    }
+                    .sale-price {
+                        .text-price {
+                            font-size: 90%;
+                        }
+                    }
+                }
+            }
+        } // page
+        .page-cat-product {
+            .box-quote {
+                p {
+                    font-size: 11px;
+                }
+            }
+            .cat-box-item {
+                h3 {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .page-detail-product,
+    .page-cat-product {
+        .box-breadcrumb {
+            .breadcrumb li h1 {
+                font-size: 11px;
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .bl-news {
+        background-size: contain;
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .hotline {
+        text-transform: uppercase;
+        font-size: $size-15;
+        color: $color-alert;
+        font-weight: 700;
+        line-height: 50px;
+        text-shadow: 0px 2px 1px $color-gray-light;
+    }
+    .btn-mobile {
+        position: relative;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50px;
+        height: 40px;
+        cursor: pointer;
+        i {
+            width: 30px;
+            height: 3px;
+            background: #002083;
+            position: absolute;
+            top: 30%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+            &::before,
+            &::after {
+                top: -8px;
+                content: "";
+                position: absolute;
+                height: 3px;
+                width: 30px;
+                background: #002083;
+                box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+                transition: 0.5s;
+            }
+            &::after {
+                top: 8px;
+            }
+        }
+    }
+    .main-primary {
+        .active-mobi {
+            i {
+                background: #fff;
+                box-shadow: none;
+                &::after {
+                    top: 0;
+                    transform: rotate(45deg);
+                }
+                &::before {
+                    top: 0;
+                    transform: rotate(135deg);
+                }
+            }
+        }
+        .menu-mobile {
+            width: 50%;
+            position: absolute;
+            background: #fff;
+            right: -100px;
+            top: 51px;
+            opacity: 0;
+            visibility: hidden;
+            transition: 0.5s;
+            li {
+                display: block;
+                height: 40px;
+                border-bottom: 1px solid $color-gray-light;
+                overflow: hidden;
+                a {
+                    line-height: 40px;
+                    display: block;
+                    &::after {
+                        content: "";
+                    }
+                    &:hover {
+                        background: #002083;
+                        color: #fff;
+                    }
+                    i {
+                        padding: 0px 6px 0px 10px;
+                    }
+                }
+            }
+        }
+        .acti_menu {
+            opacity: 1;
+            visibility: visible;
+            right: 0px;
+        }
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    .sub-menu {
+        left: -156px !important;
+    }
+}
