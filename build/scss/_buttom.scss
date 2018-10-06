@@ -1,0 +1,192 @@
+.btn-gray ,.btn-blue {
+    background: $color-btn;
+    border: none;
+    color: $color-white;
+    padding: 8px 16px;
+    border-radius: 3px;
+    font-size: $size-12;
+    box-shadow: $shadow-btn;
+    &:hover {
+        background: $color-primary;
+    }
+    &:active {
+        box-shadow: none;
+    }
+}
+.btn-gray {
+    background: $color-gray-light;
+    color: $color-gray-bold;
+    &:hover {
+        color: $color-white;
+    }
+}
+
+.group-btn {
+    padding: 8px 0px;
+}
+button.owl-next,
+button.owl-prev {
+    height: 30px;
+    width: 30px;
+    background: rgba(195, 195, 195, 0.1) !important;
+    color: $color-white !important;
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    border: 1px solid $color-white !important;
+}
+button.owl-next {
+    right: .5%;
+}
+button.owl-prev {
+    left: .5%;
+}
+.detail-user {
+    position: relative;
+    
+    .phone-desktop {
+        background: $color-primary;
+        color: $color-white;
+        display: inline;
+        border: none;
+        padding: 8px 13px;
+        font-size: 15px;
+        bottom: 25px;
+        right: 1%;
+        position: fixed;
+        font-weight: 700;
+        z-index: 333;
+        transition: .5s;
+        opacity: 0;
+        box-shadow: 1px 2px 3px rgba(39, 39, 39, 0.45);
+    }
+}
+.register-desk{
+    opacity: 0;
+    transition: .5s;
+    font-weight: 700;
+    transform: rotate(-90deg);
+    width: 200px;
+    top: 65%;
+    position: fixed;
+    left: -181px;
+    padding: 10px;
+    z-index: 88;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    i {
+        width: 20px;
+
+        &::before {
+            width: 50px;
+            bottom: -46px;       
+            }
+    }
+    span {
+        font-size: 16px;
+    }
+    
+}
+.show-regist {
+    opacity: 1;
+    left: -81px ;
+}
+.icon_i1 {
+    @include icon("i1.png")
+}
+.icon_i2 {
+    @include icon("i2.png")
+}
+.icon_i3 {
+    @include icon("i3.png")
+}
+.phone {
+    height: 33px;
+    width: 33px;
+    border: 2px solid $color-alert;
+    color: $color-alert;
+    line-height: 30px;
+    font-weight: 700;
+    border-radius: 50%;
+    margin-right: 5px;
+    box-shadow: 0px 1px 1px #cecece;
+}
+.owl-dots {
+    .owl-dot {
+        height: 8px;
+        width: 8px;
+        background: $color-gray-light !important;
+        border-radius: 50%;
+        text-align: center;
+        margin: 20px 5px 0px;
+    }
+    .active {
+        background: $color-primary !important;
+    }
+}
+
+.pulse {
+    position: absolute;
+    top: 51%;
+    right: -50px;
+    width: 30px;
+    height: 30px;
+    transform: translate(-50%, -50%);
+    color: #0023d4;
+    text-align: center;
+    line-height: 31px;
+    font-size: 12px;
+    &::before,
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        border-radius: 50%;
+        top: -30px;
+        bottom: -30px;
+        left: -30px;
+        right: -30px;
+        border: 30px solid #B8E0EF;
+        animation: ani 1.5s linear infinite;
+    }
+}
+@keyframes ani {
+    0% {
+        transform: scale(0.18);
+        opacity: 0;
+    }
+    50% { 
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.4);
+        opacity: 0;
+    }
+}
+
+/// color
+// text-color
+.text-red {
+    color: $color-alert;
+}
+.text-blue {
+    color: $color-primary;
+}
+.text-blueh {
+    color: #1DA1F2;
+}
+.radius-20 {
+    border-radius: 20px;
+}
+
+// 
+.fa-driver::before {
+    background: url(../img/icon/fa-driver.svg) no-repeat;
+    background-size: contain;
+    height: 103px;
+    width: 55px;
+    bottom: -45px;
+    left: -8px;
+    position: absolute;
+    content: "";
+}
