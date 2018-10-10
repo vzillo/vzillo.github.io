@@ -1,0 +1,262 @@
+// reset.scss 
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body,
+ul,
+figure,
+figcaption,
+ol {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+label {
+    font-size: 13px;
+    line-height: 2em;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 18px;
+}
+label[for=payall],
+label[for=pay] {
+    display: inline-flex;
+    margin-right: 13px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #eee;
+}
+
+textarea,
+select,
+input {
+    width: 100%;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 13px;
+    background: #fff;
+    border: none;
+    height: 32px;
+    &:focus {
+        outline: none;
+    }
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+button {
+    &:focus {
+        outline: none;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    li {
+        display: inline-block;
+    }
+    a {
+        display: block;
+        text-decoration: none;
+    }
+}
+// Reset page
+article {
+    .content {
+        ol,li {
+            list-style: unset;
+            margin-left: 30px;
+            padding: 3px;
+        }
+        img {
+            max-width: 100%;
+        }
+    }
+}
+.form-group {
+    margin: 1rem 0.3rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+// Jquery
+.show {
+    opacity: 1 !important;
+    visibility: visible;
+}
+.up {
+    text-transform: uppercase;
+}
+
+// BOOSTRAP 4
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.alert-primary {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
+.alert-secondary {
+    color: #383d41;
+    background-color: #e2e3e5;
+    border-color: #d6d8db;
+}
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.alert-dark {
+    color: #1b1e21;
+    background-color: #d6d8d9;
+    border-color: #c6c8ca;
+}
+// BOOTRAP 4 BUTTON 
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-outline-secondary {
+    color: #6c757d;
+    background-color: transparent;
+    background-image: none;
+    border-color: #6c757d;
+}
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+.btn-sm {
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+// MOLDAS BOOSTRAP 4
+.modal {
+        position: fixed;
+        visibility: hidden;
+        top: -15%;
+        opacity: 0;
+        z-index: 999;
+        left: 33%;
+        transition: .5s;
+       
+        .modal-dialog {
+               background: #fff;
+               width: 151%;
+               box-shadow: 0px 0px 1px rgba(0, 0, 0, .2);
+                border-radius: 1px;
+        }
+        .modal-header {
+                padding: 8px 10px;
+                position: relative;
+                border-bottom: 1px solid #eee;
+                font-size: 16px;
+                font-weight: bold;
+                span {
+                    display: inline;
+                    color: #222;;
+                }
+                button {
+                    float: right;
+                }
+        }
+        .modal-footer {
+            padding: 5px 10px;
+            border-top: 1px solid #eee;
+        }
+        .modal-body {
+            padding: 20px;
+        }
+        .modal-regist {
+            span {
+                    font-size: 15px;
+                    font-weight: 700;
+                    font-style: italic;
+            }
+        }
+        li {
+            padding: 5px 0px;
+        }
+        select,
+        input {
+            border: 1px solid #ddd;
+            border-radius: 2px;
+        }        
+}
+ .open {
+     top: 10%;
+     opacity: 1;
+     visibility: visible;
+
+ }

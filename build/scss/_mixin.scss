@@ -1,0 +1,41 @@
+// _mixin.scss 
+
+// Hàm xử lý tích hợp font-google
+@mixin font-google($string) {
+    $string: unquote($string);
+    @import url("https://fonts.googleapis.com/css?family=#{$string}");
+}
+//  End
+//==== ICON
+@mixin icon($name) {
+    background: url('../img/icon/#{$name}') no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+
+// === WIDTH
+@mixin w100 {
+    width: 100%;
+    height: auto;
+}
+@mixin w65 {
+    width: 65%;
+    height: auto;
+}
+@mixin w35 {
+    width: 35%;
+    height: auto;
+}
+@mixin hoverBox($parentClass,$childClass,$color : $color-primary) {
+    &:hover{
+        box-shadow: 0px 1px 16px rgba(0, 0, 0, .1);
+        .#{$parentClass} .#{$childClass}{
+            a {
+                color: #{$color};
+            }
+        }
+        
+    }
+}

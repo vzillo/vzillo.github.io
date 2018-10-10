@@ -2,23 +2,826 @@
 <html lang="vi">
 
 <head>
+    <title>Homepage</title>
     <meta charset="UTF-8">
-    <style>
-        h1 {
-            text-align: center;
-        }
-        .box {
-            width: 1000px;
-            margin: auto;
-        }
-    </style>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="Shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap-grid.min.css" media="all">
+    <link rel="stylesheet" href="plugins/owl/assets/owl.carousel.min.css" media="all" onload="if(media!='all')media='all'">
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css" onload="if(media!='all')media='all'">
+    <link rel="stylesheet" href="build/css/media.css" media="(max-width : 1024px)">
+    <link rel="stylesheet" href="build/css/temp.css" media="all">
+    <meta name="description" content="description">
+    <meta name="keywords" content="keywords">
+    <meta name="theme-color" content="#002083">
 </head>
-
 <body>
-  <div class="box">
-        <h1>Tạm ngừng !</h1>
-  </div>
+    <div id="wapper">
+        <header>
+            <div class="main-primary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-1 col-lg-2 col-3">
+                            <div id="logo">
+                                <a href=""><img src="build/img/logo.svg" alt="fdsafdsa"></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-5 d-none d-lg-inline-block">
+                            <div class="nav">
+                                <ul class="static-menu">
+                                    <li><a href="">Giới thiệu</a></li>
+                                    <li><a href="" class="mega-menu">Sản phẩm</a>
+                                        <div class="sub-menu">
+                                            <div class="tabs-item">
+                                                <ul>
+                                                    <li><a href="#">
+                                                            <figure>
+                                                                <img src="build//img/item1.png" alt="">
+                                                                <figcaption>Ford Ranger</figcaption>
+                                                            </figure>
+                                                        </a>
+                                                    </li>
+                                                    <li><a href="#">
+                                                            <figure>
+                                                                <img src="build//img/item1.png" alt="fdsafds">
+                                                                <figcaption>Ford Ranger</figcaption>
+                                                            </figure>
+                                                        </a>
+                                                    </li>
+                                                    <li><a href="#">
+                                                            <figure>
+                                                                <img src="build//img/item1.png" alt="fdsafdsafd">
+                                                                <figcaption>Ford Ranger</figcaption>
+                                                            </figure>
+                                                        </a>
+                                                    </li>
+                                                    <li><a href="#">
+                                                            <figure>
+                                                                <img src="build//img/item1.png" alt="fdsafdsafd">
+                                                                <figcaption>Ford Ranger</figcaption>
+                                                            </figure>
+                                                        </a>
+                                                    </li>
+                                                    <li><a href="#">
+                                                            <figure>
+                                                                <img src="build//img/item2.png" alt="fdsafdsafds">
+                                                                <figcaption>Ford Ranger</figcaption>
+                                                            </figure>
+                                                        </a>
+                                                    </li>
+                                                    <li><a href="#">
+                                                            <figure>
+                                                                <img src="build//img/item3.png" alt="fdsafdsafds">
+                                                                <figcaption>Ford Ranger</figcaption>
+                                                            </figure>
+                                                        </a>
+                                                    </li>
+                                                    <li><a href="#">
+                                                            <figure>
+                                                                <img src="build//img/item1.png" alt="fdsafdsafds">
+                                                                <figcaption>Ford Ranger</figcaption>
+                                                            </figure>
+                                                        </a>
+                                                    </li>
+                                                    <li><a href="#">
+                                                            <figure>
+                                                                <img src="build//img/item1.png" alt="fdsafdsafds">
+                                                                <figcaption>Ford Ranger Raport</figcaption>
+                                                            </figure>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="box-help">
+                                                <p>Cần trợ giúp ?</p>
+                                                <button aria-hidden="true" data-toggle="modal" data-target="#dang_ky_lai_thu"
+                                                    class="btn-blue">Hãy chọn giúp tôi</button>
+                                            </div>
+                                            <div class="content-inner">
+                                                <div class="content-item">
+                                                    <img src="build/img/banner.jpg" alt="fdsafdsa">
+                                                    <div class="box-item">
+                                                        <div class="info-item">
+                                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing
+                                                                elit.
+                                                                Natus
+                                                                suscipit sequi explicabo, ea amet minus asperiores quod
+                                                                molestiae, molestias aperiam perspiciatis vitae
+                                                                blanditiis,
+                                                                quia quae. Repudiandae pariatur ullam nostrum
+                                                                provident.</p>
+                                                            <div class="group-btn">
+                                                                <button class="btn-blue">Xem chi tiết </button>
+                                                                <button class="btn-gray" aria-hidden="true" data-toggle="modal"
+                                                                    data-target="#chi_phi_lan_banh">Yêu cầu báo giá</button>
+                                                                <button class="btn-gray" aria-hidden="true" data-toggle="modal"
+                                                                    data-target="#dang_ky_lai_thu">Đăng ký lái thử</button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="param-item">
+                                                            <ul class="list-param">
+                                                                <li>
+                                                                    <p>Số ghế</p>
+                                                                    <div class="box-param">
+                                                                        <i class="icon_i3"></i>
+                                                                        <sup>chỗ ngồi</sup>
+                                                                        <span>5</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <p>Động cơ</p>
+                                                                    <div class="box-param">
+                                                                        <i class="icon_i2"></i>
+                                                                        <sup>Bi-tubor</sup>
+                                                                        <span>2.5L</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <p>An Toàn</p>
+                                                                    <div class="box-param">
+                                                                        <i class="icon_i1"></i>
+                                                                        <sup>Túi khí</sup>
+                                                                        <span>15</span>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="content-item">
+                                                    <img src="build/img/banner.jpg" alt="fdsafdsafdas">
+                                                    <div class="box-item">
+                                                        <div class="info-item">
+                                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing
+                                                                elit.
+                                                                Natus
+                                                                suscipit sequi explicabo, ea amet minus asperiores quod
+                                                                molestiae, molestias aperiam perspiciatis vitae
+                                                                blanditiis.</p>
+                                                            <div class="group-btn">
+                                                                <button class="btn-blue">Xem chi tiết </button>
+                                                                <button class="btn-gray">Yêu cầu báo giá</button>
+                                                                <button class="btn-gray">Đăng ký lái thử</button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="param-item">
+                                                            <ul class="list-param">
+                                                                <li>
+                                                                    <p>Số ghế</p>
+                                                                    <div class="box-param">
+                                                                        <i class="icon_i3"></i>
+                                                                        <sup>chỗ ngồi</sup>
+                                                                        <span>5</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <p>Động cơ</p>
+                                                                    <div class="box-param">
+                                                                        <i class="icon_i2"></i>
+                                                                        <sup>Bi-tubor</sup>
+                                                                        <span>2.5L</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <p>An Toàn</p>
+                                                                    <div class="box-param">
+                                                                        <i class="icon_i1"></i>
+                                                                        <sup>Túi khí</sup>
+                                                                        <span>15</span>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><a href="">Khuyen mai</a></li>
+                                    <li><a href="">Dich vu</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-5 d-none d-lg-inline-block">
+                            <div class="nav text-right">
+                                <ul class="main-menu float-right">
+                                    <li><a href="">Liên hệ</a></li>
+                                    <li><a href="">Tin tức</a></li>
+                                    <li><a href="">Bảng giá xe</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-7 d-lg-none text-right">
+                            <span class="hotline"><small>HOTLINE</small> : 0899.202.983</span>
+                        </div>
+                        <div class="col-2 d-lg-none">
+                            <div class="btn-mobile">
+                                <i aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="menu-mobile d-lg-none">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-times"></i> Nội dung menufdsafdsafdsfds</a></li>
+                                <li><a href="#"><i class="fa fa-times"></i>Nội dung menu</a></li>
+                                <li><a href="#"><i class="fa fa-times"></i>Nội dung menu</a></li>
+                                <li><a href="#"><i class="fa fa-times"></i>Nội dung menu</a></li>
+                                <li><a href="#"><i class="fa fa-times"></i>Nội dung menu</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="bl-slider">
+                <div class="owl-carousel owl-theme slider-i1">
+                    <div class="item"><a href=""><img src="build/img/banner12.png" alt="dsadsa"></a></div>
+                    <!-- <div class="item"><img src="build/img/banner2.jpg" alt=""></div> -->
+                </div>
+            </div>
+            <!-- /bl-slider -->
+            <div class="bl-static">
+                <div class="container">
+                    <div class="bl-title text-center">
+                        <h1>HÀ THÀNH FORD - ĐẠI LÝ BÁN XE FORD HÀNG ĐẦU VIỆT NAM</h1>
+                        <p>Địa Chỉ : Số 2 Tôn Thất Thuyết - P. Mỹ Đình - Q. Nam Từ Liêm - TP. Hà Nội</p>
+                    </div>
+                    <div class="row inner-static main-scroller">
+                        <div class="inner-scroller justify-content-between d-flex">
+                            <div class="col-xl-4 col-lg-4 col-6 col-sm-4">
+                                <div class="box-static">
+                                    <a href=""> <img src="build/img/img1.jpg" alt="fdsafdas"></a>
+                                    <div class="title-static">
+                                        <h2><a href="">Hà Thành Ford</a></h2>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-6 col-sm-4">
+                                <div class="box-static">
+                                    <img src="build/img/img2.jpg" alt="fdsafdsafdsa">
+                                    <div class="title-static">
+                                        <h2><a href="">Hà Thành Ford khuyến mãi trong tháng</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-6 col-sm-4">
+                                <div class="box-static">
+                                    <img src="build/img/img3.jpg" alt="fdsafdsafdsafd">
+                                    <div class="title-static">
+                                        <h2><a href="">Khám phá công nghệ trên xe ford</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- /bl-static -->
+            <div class="bl-cat">
+                <div class="container">
+                    <div class="title-cat text-center">
+                        <h2>LỰA CHỌN DÒNG XE FORD PHÙ HỢP VỚI BẠN</h2>
+                    </div>
+                    <div class="cat-inner">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-4 col-sm-4 col-6">
+                                <div class="box-cat">
+                                    <a href=""> <img src="build/img/item1.png" alt="ford ranger"></a>
+                                    <h3><a href="">Ford Ranger</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-4 col-6">
+                                <div class="box-cat">
+                                    <a href=""> <img src="build/img/item2.png" alt="ford ranger"></a>
+                                    <h3><a href="">Ford Ranger</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-4 col-6">
+                                <div class="box-cat">
+                                    <a href=""> <img src="build/img/item3.png" alt="ford ranger"></a>
+                                    <h3><a href="">Ford Ranger</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-4 col-6">
+                                <div class="box-cat">
+                                    <a href=""> <img src="build/img/item1.png" alt="ford ranger"></a>
+                                    <h3><a href="">Ford Ranger</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-4 col-6">
+                                <div class="box-cat">
+                                    <a href=""> <img src="build/img/item3.png" alt="ford ranger"></a>
+                                    <h3><a href="">Ford Ranger</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-4 col-6">
+                                <div class="box-cat">
+                                    <a href=""> <img src="build/img/item2.png" alt="ford ranger"></a>
+                                    <h3><a href="">Ford Ranger</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-4 col-6">
+                                <div class="box-cat">
+                                    <a href=""> <img src="build/img/item1.png" alt="ford ranger"></a>
+                                    <h3><a href="">Ford Ranger</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-4 col-6">
+                                <div class="box-cat">
+                                    <a href=""> <img src="build/img/item1.png" alt="ford ranger"></a>
+                                    <h3><a href="">Ford Ranger</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /bl-cat -->
+            <div class="bl-sale ">
+                <div class="container">
+                    <div class="title-sale">
+                        <h2>MẪU XE FORD ĐANG BÁN CHẠY</h2>
+
+                        <a href="#" class="link-sale" aria-label="link-sale">KM Đặc biệt <span class="pulse">
+                                <i class="fa fa-circle"></i>
+                            </span> </a>
+                    </div>
+                    <div class="owl-carousel owl-theme slider-i4">
+                        <div class="box-sale">
+                            <a href=""> <img src="build/img/itemsale.jpg" alt=""></a>
+                            <div class="info-sale">
+                                <div class="name-sale">
+                                    <a href="">Ford Ranger đời 2018 đang giảm giá</a>
+                                </div>
+                                <div class="box-price">
+                                    <div class="price">
+                                        <span class="text-price">Giá niêm yết</span>
+                                        <span class="num-price">1 tỷ 2000</span>
+                                    </div>
+                                    <div class="sale-price">
+                                        <span class="text-price">Giá KM</span>
+                                        <span class="num-price">0899.202.983</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-sale">
+                            <img src="build/img/itemsale.jpg" alt="">
+                            <div class="info-sale">
+                                <div class="name-sale">
+                                    <a href="">Ford Ranger đời 2018 </a>
+                                </div>
+                                <div class="box-price">
+                                    <div class="price">
+                                        <span class="text-price">Giá niêm yết</span>
+                                        <span class="num-price">976 triệu</span>
+                                    </div>
+                                    <div class="sale-price">
+                                        <span class="text-price">Giá KM</span>
+                                        <span class="num-price">0899.202.983</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /bl-sale -->
+            <div class="bl-info ">
+                <div class="container">
+                    <div class="box-info">
+                        <div class="row">
+                            <div class="col-xl-5 col-lg-5 col-sm-6 col-12">
+                                <div class="box-form">
+                                    <div class="title-form">
+                                        <span> NHẬN BÁO GIÁ SỚM NHẤT</span>
+                                    </div>
+                                    <div class="inner-form">
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-xl-3 col-4">Họ tên <span class="text-red">*</span>
+                                                :</label>
+                                            <input type="text" aria-label="name" class="col-lg-8 col-xl-9 col-8">
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-xl-3  col-4">Điện thoại <span class="text-red">*</span>
+                                                :</label>
+                                            <input type="text" aria-label="name" class="col-lg-8 col-xl-9 col-8">
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-xl-3 col-4">Dòng xe :</label>
+                                            <select class="col-lg-8 col-xl-9 col-8" aria-label="car">
+                                                <option value="Ford Ranger">Ford ranger</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-xl-3 col-4">Email :</label>
+                                            <input type="text" aria-label="name" class="col-lg-8 col-xl-9 col-8">
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-xl-3 col-4">Thanh toán</label>
+                                            <div class="col-lg-8 col-xl-9 col-8">
+                                                <label for="payall"><input type="radio" id="payall" aria-label="payall">
+                                                    Trả hết</label>
+                                                <label for="pay"><input type="radio" id="pay" aria-label="pay">
+                                                    Trả góp</label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group text-right">
+                                            <button class="btn-blue radius-20" aria-hidden="true"> <i class="fa fa-paper-plane"></i>
+                                                Gửi
+                                                yêu cầu</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-sm-6 col-12">
+                                <div class="box-button">
+                                    <div class="group-action">
+                                        <button class="btn-blue radius-20" aria-hidden="true" data-toggle="modal"
+                                            data-target="#chi_phi_lan_banh">CHI PHÍ LĂN
+                                            BÁNH</button>
+                                        <span><i class="fa fa-car fa-lg"></i></span>
+                                    </div>
+                                    <div class="group-action">
+                                        <button class="btn-blue radius-20" aria-hidden="true" data-toggle="modal"
+                                            data-target="#dang_ky_lai_thu">ĐĂNG KÝ LÁI THỬ</button>
+                                        <span><i class="fa fa-driver fa-lg"></i></span>
+                                    </div>
+                                    <div class="group-action">
+                                        <button class="btn-blue radius-20" aria-hidden="true" data-toggle="modal"
+                                            data-target="#tra_gop_xe">TƯ VẤN TRẢ GÓP</button>
+                                        <span><i class="fa fa-money fa-lg"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-sm-12 col-12">
+                                <div class="box-profile">
+                                    <div class="text-profile">
+                                        <p>Báo giá mới nhất. Tư vấn, lái thử miễn phí. Giao xe Tận nhà</p>
+                                        <span>GỌI NGAY</span>
+                                        <span class="hotline-profile"> <i class="fa fa-phone phone"></i> 093213213</span>
+                                    </div>
+                                    <div class="img-profile">
+                                        <div class="box-repot">
+                                            <p>BẢNG GIÁ XE FORD MỚI NHẤT</p>
+                                            <button class="btn-blue">Xem Ngay</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /bl-news -->
+            <div class="bl-news">
+                <div class="container">
+                    <div class="title-news">
+                        <span>TIN TỨC XE FORD</span>
+                    </div>
+                    <div class="news-inner">
+                        <div class="owl-carousel owl-theme slider-i3">
+                            <div class="box-news">
+                                <a href="#"> <img src="build/img/itemnews.jpg" alt=""></a>
+                                <div class="info-news">
+                                    <div class="h-news">
+                                        <a href="">Đánh giá xe Ford Everest 2018 , Ngoại hình , động cơ được nâng cấp</a>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iure
+                                        consequatur nostrum commodi, pariatur beatae.</p>
+                                    <div class="times-news">
+                                        <span class="cat"><a href="#"> <i class="fa fa-folder-o"></i> Tin tức </a></span>
+                                        <span class="time"><i class="fa fa-clock-o"></i> Thời gian : 10 giờ</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-news">
+                                <a href="#"> <img src="build/img/itemnews.jpg" alt=""></a>
+                                <div class="info-news">
+                                    <div class="h-news">
+                                        <a href="">Đánh giá xe Ford Everest 2018 , Ngoại hình , động cơ được nâng cấp</a>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iure
+                                        consequatur nostrum commodi, pariatur beatae.</p>
+                                    <div class="times-news">
+                                        <span class="cat"><a href="#"> <i class="fa fa-folder-o"></i> Tin tức </a></span>
+                                        <span class="time"><i class="fa fa-clock-o"></i> Thời gian : 10 giờ</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-news">
+                                <a href="#"> <img src="build/img/itemnews.jpg" alt=""></a>
+                                <div class="info-news">
+                                    <div class="h-news">
+                                        <a href="">Đánh giá xe Ford Everest 2018 , Ngoại hình , động cơ được nâng cấp</a>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iure
+                                        consequatur nostrum commodi, pariatur beatae.</p>
+                                    <div class="times-news">
+                                        <span class="cat"><a href="#"> <i class="fa fa-folder-o"></i> Tin tức </a></span>
+                                        <span class="time"><i class="fa fa-clock-o"></i> Thời gian : 10 giờ</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-news">
+                                <a href="#"> <img src="build/img/itemnews.jpg" alt=""></a>
+                                <div class="info-news">
+                                    <div class="h-news">
+                                        <a href="">Đánh giá xe Ford Everest 2018 , Ngoại hình , động cơ được nâng cấp</a>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iure
+                                        consequatur nostrum commodi, pariatur beatae.</p>
+                                    <div class="times-news">
+                                        <span class="cat"><a href="#"> <i class="fa fa-folder-o"></i> Tin tức </a></span>
+                                        <span class="time"><i class="fa fa-clock-o"></i> Thời gian : 10 giờ</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="bl-footer">
+                <div class="footer-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-3 col-sm-3 col-6">
+                                <div class="title-wiget">
+                                    <span> Dòng xe của bạn</span>
+                                </div>
+                                <div class="list-tasks">
+                                    <ul>
+                                        <li><a href="#">Ranger</a></li>
+                                        <li><a href="#">Ranger</a></li>
+                                        <li><a href="#">Ranger</a></li>
+                                        <li><a href="#">Ranger</a></li>
+                                        <li><a href="#">Ranger</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-sm-3 col-6">
+                                <div class="title-wiget">
+                                    <span> Dòng xe của bạn</span>
+                                </div>
+                                <div class="list-tasks">
+                                    <ul>
+                                        <li><a href="#">Ranger</a></li>
+                                        <li><a href="#">Ranger</a></li>
+                                        <li><a href="#">Ranger</a></li>
+                                        <li><a href="#">Ranger</a></li>
+                                        <li><a href="#">Ranger</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-sm-3 col-6">
+                                <div class="title-wiget">
+                                    <span> Dòng xe của bạn</span>
+                                </div>
+                                <div class="list-tasks">
+                                    <ul>
+                                        <li><a href="#">Ranger</a></li>
+                                        <li><a href="#">Ranger</a></li>
+                                        <li><a href="#">Ranger</a></li>
+                                        <li><a href="#">Ranger</a></li>
+                                        <li><a href="#">Ranger</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 col-sm-3 col-6">
+                                <div class="title-wiget">
+                                    <span> Dòng xe của bạn</span>
+                                </div>
+                                <div class="list-tasks">
+                                    <ul>
+                                        <li><a href="#">Ranger</a></li>
+                                        <li><a href="#">Ranger</a></li>
+                                        <li><a href="#">Ranger</a></li>
+                                        <li><a href="#">Ranger</a></li>
+                                        <li><a href="#">Ranger</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-12">
+                                <p>Đồng hành cùng <strong>HÀ THÀNH FORD</strong></p>
+                                <a href="#" aria-label="facebook"> <i class="fa fa-facebook-square fa-lg text-blue"
+                                        aria-hidden="true"></i></a>
+                                <a href="#" aria-label="youtube"> <i class="fa fa-youtube-square fa-lg text-red"
+                                        aria-hidden="true"></i></a>
+                                <a href="#" aria-label="twitter"> <i class="fa fa-twitter-square fa-lg text-blueh"
+                                        aria-hidden="true"></i></a>
+                                <a href="#" aria-label="google"> <i class="fa fa-google-plus-square fa-lg text-red"
+                                        aria-hidden="true"></i></a>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-12 text-right">
+                                <div class="brand">
+
+                                    <p> <i>Chi Nhánh <span> Ford Mỹ Đình</span></i></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="security">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-10 col-lg-10 col-8">
+                                <ul class="nav">
+                                    <li><a href="">Chính sách bảo mật</a> </li>
+                                    <li><a href="">Chính sách bảo mật</a> </li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-2 col-lg-2 col-4 text-right">
+                                <a href="" aria-label="dmca">
+                                    <img src="build/img/icon/dmca_protected_sml_120b.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+        <div class="detail-user">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 d-sm-none">
+                        <div class="phone-mobile">
+                            <a href="tel:0913887999" rel="noopener" aria-label="phone"><i class="fa fa-phone"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-6 d-none d-sm-inline-block">
+
+                        <button class="phone-desktop radius-20">
+                            <i class="fa fa-phone fa-lg"></i> <span> HOTLINE : 091 388 7999</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <button class="register-desk btn-blue d-none d-sm-inline-block" aria-hidden="true" data-toggle="modal"
+                data-target="#dang_ky_lai_thu">
+                <i class="fa fa-driver fa-lg"></i> <span> ĐĂNG KÝ LÁI THỬ</span>
+            </button>
+        </div>
+        <!-- modals -->
+        <!-- Đăng ký lái thử -->
+        <div class="modal" id="chi_phi_lan_banh" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="modal-title">DỰ TRÙ KINH PHÍ</span>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body modal-regist">
+                        <p><strong>Nếu quý khách đang băn khoăn về chi phí đề xe lăn bánh</strong></p>
+                            <p>Hãy gọi <b class="text-red"> 091 388 7999 </b> hoặc điền vào form bên dưới :</p>
+                        <ul>
+                            <li>Tư vấn miễn phí các khoản thuế phí</li>
+                            <li>Nhận ưu đãi đặc biệt bao gồm tiền mặt và quà tặng</li>
+                        </ul>
+                        <div class="form-group text-right">
+                            <label class="col-xl-3 col-lg-3 col-sm-3 col-4">Họ tên <sup class="text-red">*</sup>:</label>
+                            <input type="text" class="col-xl-9 col-sm-9 col-8">
+                        </div>
+                        <div class="form-group text-right">
+                            <label class="col-xl-3 col-lg-3 col-sm-3 col-4">Điện thoại <sup class="text-red">*</sup>:</label>
+                            <input type="text" class="col-xl-9 col-lg-9 col-sm-9 col-8">
+                        </div>
+                        <div class="form-group text-right">
+                            <label class="col-xl-3 col-lg-3 col-sm-3 col-4">Dòng xe :</label>
+                            <select class="col-xl-9 col-lg-9 col-sm-9 col-8">
+                                <option value="">tretre</option>
+                            </select>
+                        </div>
+                        <div class="form-group text-right">
+                            <label class="col-xl-3 col-lg-3 col-sm-3 col-4">Địa chỉ :</label>
+                            <input type="text" class="col-xl-9 col-lg-9 col-sm-9 col-8">
+                        </div>
+                    </div>
+                    <div class="modal-footer text-right">
+                        <button type="button" class="btn-gray" data-dismiss="modal">Đóng</button>
+                        <button type="button" class="btn-blue"><i class="fa fa-paper-plane"></i> Gửi yêu cầu</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Đăng ký lái thử -->
+        <div class="modal" id="dang_ky_lai_thu" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="modal-title">ĐĂNG KÝ LÁI THỬ XE</span>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body modal-regist">
+                        <span class="text-red">Lái thử là bước rất quan trọng khi chọn mua xe .</span>
+                            <p>Hãy gọi <b class="text-red"> 091 388 7999 </b>đặt lịch lái thử hoặc điền vào
+                                form bên dưới :</p>
+                        <ul>
+                            <li>1. Lái thử xe hoàn toàn miễn phí</li>
+                            <li>2. Tư vấn kỷ thuật xe miễn phí</li>
+                            <li>3. Nhận giá đặc biệt khi mua xe</li>
+                        </ul>
+                        <div class="form-group text-right">
+                            <label class="col-xl-3 col-lg-3 col-sm-3 col-4">Họ tên <sup class="text-red">*</sup>:</label>
+                            <input type="text" class="col-xl-9 col-sm-9 col-8">
+                        </div>
+                        <div class="form-group text-right">
+                            <label class="col-xl-3 col-lg-3 col-sm-3 col-4">Điện thoại <sup class="text-red">*</sup>:</label>
+                            <input type="text" class="col-xl-9 col-lg-9 col-sm-9 col-8">
+                        </div>
+                        <div class="form-group text-right">
+                            <label class="col-xl-3 col-lg-3 col-sm-3 col-4">Dòng xe :</label>
+                            <select class="col-xl-9 col-lg-9 col-sm-9 col-8">
+                                <option value="">tretre</option>
+                            </select>
+                        </div>
+                        <div class="form-group text-right">
+                            <label class="col-xl-3 col-lg-3 col-sm-3 col-4">Địa chỉ :</label>
+                            <input type="text" class="col-xl-9 col-lg-9 col-sm-9 col-8">
+                        </div>
+                    </div>
+                    <div class="modal-footer text-right">
+                        <button type="button" class="btn-gray" data-dismiss="modal">Đóng</button>
+                        <button type="button" class="btn-blue"><i class="fa fa-paper-plane"></i> Gửi yêu cầu</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Tư vấn trả góp -->
+        <div class="modal" id="tra_gop_xe" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="modal-title">TƯ VẤN TRẢ GÓP</span>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body modal-regist">
+                      
+                            <p>Hãy gọi <b class="text-red"> 091 388 7999 </b> tư vấn miễn phí thủ tục <strong> trả góp
+                                    xe ford</strong> hoặc điền vào
+                                form bên dưới :</p>
+                        
+                        <ul>
+                            <li>Tư vấn miễn phí thủ tục trả góp và các khoản thuế phí</li>
+                            <li>Hỗ trợ hoàn tất thủ tục nhanh gọn , giao xe ngay .</li>
+                            <li>[ Đặc biệt ] Nhận ưu đãi giảm tiền mặt và quà tặng !</li>
+                        </ul>
+                        <div class="form-group text-right">
+                            <label class="col-xl-3 col-lg-3 col-sm-3 col-4">Họ tên <sup class="text-red">*</sup>:</label>
+                            <input type="text" class="col-xl-9 col-sm-9 col-8">
+                        </div>
+                        <div class="form-group text-right">
+                            <label class="col-xl-3 col-lg-3 col-sm-3 col-4">Điện thoại <sup class="text-red">*</sup>:</label>
+                            <input type="text" class="col-xl-9 col-lg-9 col-sm-9 col-8">
+                        </div>
+                        <div class="form-group text-right">
+                            <label class="col-xl-3 col-lg-3 col-sm-3 col-4">Dòng xe :</label>
+                            <select class="col-xl-9 col-lg-9 col-sm-9 col-8">
+                                <option value="">tretre</option>
+                            </select>
+                        </div>
+                        <div class="form-group text-right">
+                            <label class="col-xl-3 col-lg-3 col-sm-3 col-4">Địa chỉ :</label>
+                            <input type="text" class="col-xl-9 col-lg-9 col-sm-9 col-8">
+                        </div>
+                    </div>
+                    <div class="modal-footer text-right">
+                        <button type="button" class="btn-gray" data-dismiss="modal">Đóng</button>
+                        <button type="button" class="btn-blue"><i class="fa fa-paper-plane"></i> Gửi yêu cầu</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Tư ván trả góp -->
+        <!-- /modals -->
+    </div>
+    <!-- /wapper -->
+    <!-- Jquery -->
+    <script src="plugins/jquery.js"></script>
+    <script src="plugins/owl/owl.carousel.min.js"></script>
+    <script src="build/js/main.js"></script>
+
 </body>
 
 </html>
