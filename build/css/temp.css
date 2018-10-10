@@ -184,8 +184,9 @@ article .content img {
     padding: 8px 10px;
     position: relative;
     border-bottom: 1px solid #eee;
-    font-size: 18px; }
-    .modal .modal-header h5 {
+    font-size: 16px;
+    font-weight: bold; }
+    .modal .modal-header span {
       display: inline;
       color: #222; }
     .modal .modal-header button {
@@ -207,7 +208,7 @@ article .content img {
     border-radius: 2px; }
 
 .open {
-  top: 25%;
+  top: 10%;
   opacity: 1;
   visibility: visible; }
 
