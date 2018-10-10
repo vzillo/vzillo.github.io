@@ -1130,6 +1130,12 @@ button.close {
   height: 32px;
   display: inline-block; }
 
+.icon_i4 {
+  background: url("../img/icon/i4.png") no-repeat;
+  width: 32px;
+  height: 32px;
+  display: inline-block; }
+
 .phone {
   height: 33px;
   width: 33px;
