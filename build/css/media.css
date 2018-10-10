@@ -120,7 +120,9 @@
     font-size: 11px; }
 
   .page-detail-product .box-control li {
-    margin-right: 0px; } }
+    margin-right: 0px; }
+    .page-detail-product .box-control li a {
+      padding: 0px 5px; } }
 @media (max-width: 767.98px) {
   .bl-news {
     background-size: contain; } }
