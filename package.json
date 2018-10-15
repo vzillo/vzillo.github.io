@@ -1,0 +1,20 @@
+{
+  "name": "phan-trong-dai",
+  "version": "1.0.0",
+  "description": "civi phan trong dai 2018",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "civi",
+    "viec",
+    "lam"
+  ],
+  "author": "phandai",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.4.1",
+    "bootstrap": "^4.1.3"
+  }
+}
